@@ -93,6 +93,7 @@ a:hover {
 .about-content {
   display: flex;
 align-items: center;
+  padding-left: 250px
 }
 
 .about-content h3 {
@@ -107,6 +108,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   text-align: left;
+  padding-right: 250px
 }
 
 .about-background p {
