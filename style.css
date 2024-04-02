@@ -45,6 +45,7 @@ img {
   max-width: 200px;
   height: auto;
   margin: auto;
+  padding-right: 25px;
 }
 
 hr {
