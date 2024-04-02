@@ -107,7 +107,6 @@ align-items: center;
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 20px;
 }
 
 .about-background p {
