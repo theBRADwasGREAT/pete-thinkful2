@@ -10,7 +10,7 @@
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="align-items: center;">
+<body>
   <!-- The header should have a nav section directing users to the different articles and sections -->
 
   <header>
@@ -25,7 +25,7 @@
     </div>
   </header>
 
-  <main>
+  <main style="display: flex; flex-direction: column; align-items: center;">
     
       <!-- About section should have a circular image of Pete and an anchor to the concant section written just before Pete's background -->
     
@@ -33,11 +33,11 @@
 
        <h2 style="text-align: center; display: flex; justify-content: center;">About</h2>
        
-        <div class="about-content" style=justify-content: center> <!-- this div container is used to align the image on the same row as the text -->
+        <div class="about-content"> <!-- this div container is used to align the image on the same row as the text -->
 
-                <img class="image-circle" style="margin-right: 10px;" src="images/pete-thinkful.png" alt="Pete Thinkful">
+                <img class="image-circle" style="margin-right: 1px;" src="images/pete-thinkful.png" alt="Pete Thinkful">
 
-                <section style="margin-left: -10px; padding-left: 10px; display: flex; flex-direction: column;"> <!-- this  section container is used to properly align the heading with text below -->
+                <section> <!-- this  section container is used to properly align the heading with text below -->
        
       <h3>Hi! I'm Pete Thinkful</h3>
              
@@ -117,6 +117,10 @@
   <!-- Footer section -->
   <footer>
     <h4>© Pete Thinkful. All rights reserved.</h4>
+  </footer>
+  
+</body>
+</html>
   </footer>
   
 </body>
