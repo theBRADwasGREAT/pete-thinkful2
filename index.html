@@ -10,7 +10,7 @@
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body style="align-items: center;">
   <!-- The header should have a nav section directing users to the different articles and sections -->
 
   <header>
@@ -31,14 +31,13 @@
     
       <article id="about">
 
-       <h2 style="text-align: center;">About</h2>
-        <div style="padding-left: 100px; padding-right: 100px;">
+       <h2 style="text-align: center; display: flex; justify-content: center;">About</h2>
        
         <div class="about-content"> <!-- this div container is used to align the image on the same row as the text -->
 
-                <img class="image-circle" src="images/pete-thinkful.png" alt="Pete Thinkful">
+                <img class="image-circle" style="margin-right: 10px;" src="images/pete-thinkful.png" alt="Pete Thinkful">
 
-                <section style="padding-left; 25px"> <!-- this  section container is used to properly align the heading with text below -->
+                <section style="margin-left: -10px; padding-left: 10px; display: flex; flex-direction: column;"> <!-- this  section container is used to properly align the heading with text below -->
        
       <h3>Hi! I'm Pete Thinkful</h3>
              
@@ -112,7 +111,6 @@
     </ol>
           </div>
       </section>
-          </div>
   </main>
   
 
