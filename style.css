@@ -54,7 +54,8 @@ hr {
 /* Add your solution below */
 
 .image-circle {
-  width: 200px; border-radius: 200px; border-color: #003049; border-style: solid; border-width: 2px;}
+  width: 200px; border-radius: 200px; border-color: #003049; border-style: solid; border-width: 2px;
+}
 
 nav {
   font-family: "Playfair Display", Times, serif; font-size: 15px; color: #d62828; word-spacing: 15px; text-align: center;
@@ -92,36 +93,29 @@ a:hover {
 
 .about-content {
   display: flex;
-align-items: center;
+text-align: left;
+margin-left: -250px;
 }
 
 .about-content h3 {
   text-align: center;
 }
 
-.about-content p {
-  text-align: left;
-}
-
-.about-content section {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
 .about-background p {
   text-align: left;
+  display: flex;
+  justify-content: center;
 }
 
 .portfolio-content {
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .portfolio-content p {
   font-size: 14px;
-}
-
-.portfolio-content section {
-  margin: 5px;
+  padding: 150px;
+  margin-top: 1px;
+  padding-top: 1px;
 }
