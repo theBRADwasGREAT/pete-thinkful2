@@ -8,11 +8,11 @@ body {
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1, {
+h1,{
   font-size: 30px; color: #d62828; text-align: center; font-family: "Playfair Display", Times, serif; text-align: center;
 }
 
-h2,{
+h2, {
   font-family: "Playfair Display", Times, serif; text-align: :center;
 }
 h3 {
@@ -36,7 +36,6 @@ p {
 div {
   margin: auto;
   width: 600px;
-  text-align: center;
   
 }
 
@@ -91,11 +90,27 @@ a:hover {
   justify-content: space-around;
 }
 
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .about-content {
   display: flex;
-text-align: left;
-justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
 }
+
+.about-content section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
 
 .about-content h3 {
   text-align: center;
@@ -115,7 +130,6 @@ justify-content: center;
 
 .portfolio-content p {
   font-size: 14px;
-  padding: 150px;
+  padding: 5px;
   margin-top: 1px;
-  padding-top: 1px;
 }
