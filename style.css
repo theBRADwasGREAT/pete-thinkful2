@@ -4,20 +4,29 @@
 body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px 650px 40px 650px;  
+  padding: 40px 650px 40px 650px; /* padding adjusted to match mockup */
   background-color: #eae2b7;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
-h1,{
-  font-size: 30px; color: #d62828; text-align: center; font-family: "Playfair Display", Times, serif; text-align: center;
+h1, {
+  font-size: 30px; 
+  color: #d62828; 
+  text-align: center; 
+  font-family: "Playfair Display", Times, serif; 
 }
 
-h2, {
-  font-family: "Playfair Display", Times, serif; text-align: :center;
+h2,{
+  font-family: "Playfair Display", Times, serif; 
+  text-align: center;
 }
 h3 {
-  font-family: "Playfair Display", Times, serif; text-align: center;
+  font-family: "Playfair Display", Times, serif; 
+  text-align: center;
+}
+
+article {
+  padding: 50px 0;
 }
 
 article div {
@@ -26,13 +35,16 @@ article div {
 }
 
 p {
-  line-height: 1.5; text-align: center;
+  line-height: 1.5; 
+  text-align: left; 
+  padding-left: 40px;
 }
 
 /* The div container constrains the content width within the main container to 600px */
 div {
- max-width: 600px;
   margin: auto;
+  width: 600px;
+  text-align: center;
 }
 
 img {
@@ -44,35 +56,56 @@ img {
 
 hr {
   border: 1px solid black;
-  width: 25%;
-  margin: auto;
-  padding: auto;
 }
 
 /* Add your solution below */
 
 .image-circle {
-  width: 200px; border-radius: 200px; border-color: #003049; border-style: solid; border-width: 2px;
+  width: 200px; 
+  border-radius: 200px; 
+  border-color: #003049; 
+  border-style: solid; 
+  border-width: 2px;
 }
 
+
 nav {
-  font-family: "Playfair Display", Times, serif; font-size: 15px; color: #d62828; word-spacing: 15px; text-align: center;
+  font-family: "Playfair Display", Times, serif;
+  font-size: 15px;
+  color: #d62828;
+  word-spacing: 15px;
 }
 
 ol {
-  text-align: left; padding-left: 20px; margin-left: 5px;
+  text-align: left; 
+  padding-left: 40px; 
+  margin-left: 40px;
 }
 
 ul { 
-  list-style-position: inside;
+  text-align: left; 
+  padding-left: 40px; 
+  margin-left: 40px; 
+  list-style-type: disc
 }
 
 footer {
   text-align: center;
 }
 
+/* this is used to align the header text with the nav links as well as 
+ center everything in the header */
 header {
-  text-align: center; font-family: "Playfair Display", Times, serif;
+  text-align: center;
+  align-items: center; 
+  font-family: "Playfair Display", Times, serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* the code below is to separate the nav from the header text */
+header h1 {
+  margin: 15px;
 }
 
 a:link {
@@ -83,54 +116,59 @@ a:hover {
   color: #f77f00
 }
 
-.intro {
-  display: flex;
- align-items: center;
-  justify-content: space-around;
-}
-
+/* aligns content in the about section */
 #about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+align-items: center;
+text-align: center;
 }
 
+
+/* places image and text in a row and puts the below text left aligned */
 .about-content {
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-content section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: left;
 }
 
+
+/* arranges image and text next to each other */
+.about-content div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* centers the header in the about section */
 .about-content h3 {
   text-align: center;
 }
 
-.about-background p {
-  text-align: left;
-  display: flex;
-  justify-content: center;
+#portfolio h2 {
+  text-align: center; /* Center the text horizontally */
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
 }
 
+/* puts portfolio images in a row and centers them */
 .portfolio-content {
   display: flex;
-  text-align: center;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.portfolio-content p {
-  font-size: 14px;
+/* styles individual artwork images and aligns artwork in a single row */
+.artwork {
+  flex: 1 1 200px;
+  margin: 5px;
   padding: 5px;
-  margin-top: 1px;
+  text-align: center;
 }
 
-.contact h2 {
-  text-align: center;
+.artwork img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* changes portfolio description font size and centers the text on the page */
+.art-description {
+  font-size: 14px;
 }
