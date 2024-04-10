@@ -141,9 +141,8 @@ text-align: center;
   text-align: center;
 }
 
-#portfolio h2 {
-  text-align: center; /* Center the text horizontally */
-  margin-bottom: 20px; /* Add some bottom margin for spacing */
+#portfolio {
+  text-align: center;
 }
 
 /* puts portfolio images in a row and centers them */
@@ -151,6 +150,7 @@ text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 /* styles individual artwork images and aligns artwork in a single row */
