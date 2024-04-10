@@ -9,13 +9,6 @@ body {
   justify-content: center;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 40px 650px 40px 650px;
-}
-
 /* Set the font family for any h1, h2, or h3 heading */
 h1, {
   font-size: 30px; 
