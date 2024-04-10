@@ -6,6 +6,7 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px 650px 40px 650px; /* padding adjusted to match mockup */
   background-color: #eae2b7;
+  justify-content: center;
 }
 
 /* Set the font family for any h1, h2, or h3 heading */
@@ -141,6 +142,7 @@ text-align: center;
   text-align: center;
 }
 
+/* centers the portfolio header */
 #portfolio {
   text-align: center;
 }
@@ -159,6 +161,7 @@ text-align: center;
   text-align: center;
 }
 
+/* styles the images in artwork */
 .artwork img {
   width: 100%;
   max-width: 200px;
@@ -169,4 +172,5 @@ text-align: center;
 /* changes portfolio description font size and centers the text on the page */
 .art-description {
   font-size: 14px;
+  text-align: center;
 }
